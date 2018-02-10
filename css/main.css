@@ -1,0 +1,33 @@
+body{
+    font-family: 'Merriweather';
+}
+nav{
+background:#ecf75c;
+}
+
+
+#efecto{
+    font-family: 'Merriweather';
+    color: bisque;
+    font-size: 30px;
+    margin-top: 15%;
+    margin-left: 30%;
+ 
+}
+
+.right{
+    font-family: 'Merriweather';
+
+}
+
+.portfolioImage{
+    width: 205px;
+    height: 229px;
+}
+
+.material-icons{
+    margin-left: 35%;
+}
+.informationWeb{
+    text-align: justify;
+}
