@@ -12,7 +12,6 @@ nav ul a {
     letter-spacing: 1.8px;
     font-family: 'Cantarell', sans-serif;
     font-size: 18px;
-    
 }
 
 li:hover {
@@ -20,20 +19,19 @@ li:hover {
 }
 
 #efecto {
-    
     font-family: 'Cantarell', sans-serif;
-    color:#faa912;
+    color: #faa912;
     font-size: 38px;
-    font-weight: 700;    
+    font-weight: 700;
     margin-top: 10%;
     margin-left: 50%;
 }
+
 #efecto2 {
-    
     font-family: 'Cantarell', sans-serif;
-    color:#faa912;
+    color: #faa912;
     font-size: 38px;
-    font-weight: 700;    
+    font-weight: 700;
     margin-top: 10%;
     margin-left: 50%;
 }
@@ -49,7 +47,6 @@ li:hover {
 
 .material-icons {
     margin-left: 30%;
-  
 }
 
 .informationWeb {
@@ -58,4 +55,85 @@ li:hover {
 
 .secondActivator {
     height: 202px;
+}
+
+/*EFECTO DE HABILIDADES*/
+.containerHabilitys{
+    
+    background-color:gray;
+}
+.frame {
+    position:relative;
+   width: 500px;
+    top: 50%;
+    height: 400px;
+    border-radius: 2px;
+    -webkit-box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.25);
+    
+    background: #333;
+    color: #fff;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.boxes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100vh;
+    height: 100%;
+}
+
+.boxes .box {
+    position: relative;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    width: 20%;
+    background: grey;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.boxes .box .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%) scale(0.5);
+    transform: translate(-50%, -50%) scale(0.5);
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.boxes .box.dark {
+    background: gray;
+}
+
+.boxes .box.orange {
+    background: #e67e22;
+}
+
+.boxes .box:hover {
+    width: 100%;
+}
+
+.boxes .box:hover .text {
+    color: #fff;
+    -webkit-transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -50%) scale(1);
 }
