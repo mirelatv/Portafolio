@@ -26,7 +26,7 @@ body {
 }
 
 nav {
-  background:purple;
+  background:#530453;
   position: relative;
 }
 
@@ -34,22 +34,21 @@ nav ul  a {
   letter-spacing: 1.8px;
   font-family: 'Cantarell', sans-serif;
   font-size: 20px;
-  color:#faa912;
+  color:wheat;
 }
 nav .brand-logo{
-  color: #faa912;
+  color: wheat;
 }
 li:hover {
-  background-color: #faa912;
+  background-color: wheat;
 }
-/* seccionInitial*/
+/* SECCION INICIAL*/
  
 .efectoPresentation{
-  margin-top: -3%;
+  margin-top: 0%;
   background:  linear-gradient(135deg, rgba(246,230,180,1) 0%,rgba(33,10,102,1) 100%);
 }
-   /* background: -webkit-linear-gradient(rgb(24, 23, 24), rgb(104, 78, 112));
-}*/
+   
 svg{
   margin: 50px auto;
   margin-top: 5%;
@@ -116,7 +115,7 @@ svg{
 /*SKILLS*/
 .skillSection{ 
   background: rgb(246,230,180); 
-  height: 100vh;
+  height: 109vh;
   background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(246,230,180,1)), color-stop(100%,rgba(33,10,102,1)));
   background: -webkit-linear-gradient(-45deg,  rgba(246,230,180,1) 0%,rgba(33,10,102,1) 100%); 
   background: linear-gradient(135deg,  rgba(246,230,180,1) 0%,rgba(33,10,102,1) 100%);   
@@ -417,4 +416,12 @@ span{
 .lg:hover{
   background-color: rgb(126, 19, 126);
   color: rgb(250, 143, 20);
+}
+
+/*FOOTER*/
+.page-footer{
+  background-color:#270227d3;
+}
+.text{
+  color:wheat;
 }
