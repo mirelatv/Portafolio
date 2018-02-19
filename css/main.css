@@ -304,18 +304,20 @@ svg{
   width: 200px;
   height: 40px;
   border-radius: 10%;
-  background: #faa912;
+  border:1px solid #faa912;
+  background: transparent;
   cursor: pointer;
   position: absolute;
   bottom: -58%;
   left: 59%;right: 0;
   margin: 0 auto;
-  color:rgb(126, 19, 126);
+  color:#faa912;
   text-align: center;
     
   }
 .btn:hover{
-  background-color: rgb(126, 19, 126);
+  background-color: transparent;
+  border:1px solid rgb(126, 19, 126);
   color: #faa912;
   }
 .btn:hover + .skills-circle{ 
@@ -372,11 +374,13 @@ span{
   width: 200px;
   height: 40px;
   border-radius: 5%;
+  border:1px solid rgb(126, 19, 126);
   background: #faa912;
   cursor: pointer;
   position: absolute;  
   text-align: center;
   margin-top: -20%;
+  margin-left: 4%;
 }
 .cardButton a{
   color:rgb(126, 19, 126);
@@ -384,10 +388,13 @@ span{
 }
 
 .cardButton:hover{
-  background-color: rgb(126, 19, 126);
+  background-color: transparent;
+  border: none;
 }
 .cardButton a:hover{
   color: rgb(250, 143, 20);
+  border: none;
+  font-size: 20px;
 }
  /*seccion de  contacto*/
 .contactMe{
