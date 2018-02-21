@@ -1,5 +1,5 @@
 
-@media only screen and (max-width:991px){
+@media(max-width:576px){
 .efectoPresentation{
   background-image: url('../assets/images/movile.jpg');
   background-size: cover;
@@ -11,12 +11,13 @@
   color: white;
   font-size: 20px;
   font-weight: 700;
-  margin-top: 10%;
+  margin-top: 40%;
   margin-left: 19%;
   width: 235px;
   position: absolute;
 }
-  
+
+ 
 
 }
 
@@ -26,26 +27,33 @@ body {
 }
 
 nav {
-  background:black;
+  background-color:#705041;
   position: relative;
+  border: none;
+  position: fixed;
+  z-index: 1000;
 }
 
 nav ul  a {
   letter-spacing: 1.8px;
   font-family: 'Cantarell', sans-serif;
   font-size: 20px;
-  color:wheat;
+  color:whitesmoke;
   
 }
 nav ul{
   margin-right: 5%;
 }
 nav .brand-logo{
-  color: white;
+  color: whitesmoke;
   margin-left: 5%;
 }
 li:hover {
-  background-color: white;
+  background-color: rgb(235, 129, 30);
+
+}
+.imgLogo{
+  width: 20%;
 }
 /* SECCION INICIAL*/
  
@@ -70,7 +78,7 @@ li:hover {
   margin-top: 10%;
   width: 500px;
   margin-left: 5%;
-  position: absolute;
+  
 }
     
 
@@ -78,7 +86,7 @@ li:hover {
 
 .circle{
   margin-top: 10%;
-  width: 100px;
+  width: 440px;
   height: 440px;
   box-shadow:6px 4px 6px rgb(228, 181, 28);
 }
@@ -127,9 +135,13 @@ li:hover {
 
 /*SKILLS*/
 .skillSection{ 
-  height: 50vh;
+  height: 90vh;
   margin-top: 5%;  
-  background: linear-gradient(135deg, rgb(230,126,34) 0%,rgb(145, 101, 66) 100%);   
+  background:#D6AA8B;   
+}
+.skills img{
+  width: 240px;
+  height: 150px;
 }
 
 #skillInformation{
@@ -195,6 +207,7 @@ span{
 }
 .cardButton{
   background-color: #e67e22;
+}
 .cardButton:hover{
   background-color: transparent;
   border: none;
@@ -204,7 +217,10 @@ span{
   border: none;
   font-size: 20px;
 }
-
+.card-image img{
+  width: 219.64px;
+  height: 200px
+}
 .informationWeb{
   text-align: justify;
 }
@@ -234,7 +250,7 @@ span{
 
 /*FOOTER*/
 .page-footer{
-  background-color:#270227d3;
+  background-color:#9D4A20;
 }
 .text{
   color:wheat;
