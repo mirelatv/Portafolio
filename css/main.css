@@ -47,9 +47,11 @@ nav ul{
 nav .brand-logo{
   color: whitesmoke;
   margin-left: 5%;
+  font-family: 'Gabriela', serif;
+  color: rgb(240, 160, 173)
 }
-li:hover {
-  background-color: rgb(235, 129, 30);
+.menu:hover {
+  background-color: rgb(240, 160, 173);
 
 }
 .imgLogo{
@@ -60,7 +62,7 @@ li:hover {
 .efectoPresentation{
   margin-top: 0%;
   height: 100vh;
-  background-image: url('../assets/images/room.jpg');
+  background: linear-gradient(135deg, #505052bf 0%,  rgba(173, 168, 169, 0.75) 100%), url('../assets/images/room.jpg') center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -75,9 +77,10 @@ li:hover {
   color:white;
   font-size: 50px;
   font-weight: 700;
-  margin-top: 10%;
+  margin-top: 80px;
   width: 500px;
   margin-left: 5%;
+  margin-bottom: 80px;
   
 }
     
@@ -86,19 +89,18 @@ li:hover {
 
 .circle{
   margin-top: 10%;
-  width: 440px;
-  height: 440px;
-  box-shadow:6px 4px 6px rgb(228, 181, 28);
+  
+  box-shadow:6px 4px 6px rgb(240, 160, 173);
 }
 .aboutMe{
-  margin-top: 8%;
+  margin-top:80px;
   color: rgba(0, 0, 0, 0.76);
   font-weight: 700;
   letter-spacing: 0.7rem;
    
 }
 .aboutMeDescription{
-  margin-top: -75%;
+  margin-top:-67%;
   font-weight: 400;
   color: rgb(24, 23, 24);
   text-align: justify;
@@ -106,26 +108,23 @@ li:hover {
   font-size: 1rem;
   line-height: 1.5;
   margin-left: 10%;
+  margin-bottom: 0%;
 
 }
-.paragraph{
-  margin-top: -45%;
-}
-.paragraphEnd{
-  margin-top: -3%;
-}
+
+
 
 .paragraphMovile{
   color: rgba(0, 0, 0, 0.76);
   text-align: justify;
 }
 .section .line {
-  color: rgb(230,126,34);
+  color: rgb(240, 160, 173);
   display: inline-block;
   height: 2px;
   content: " ";
-  margin-top: 3%;
-  background-color: rgb(230,126,34);
+  margin-top: 5px;
+  background-color: rgb(240, 160, 173);
   
  }
  
@@ -136,7 +135,7 @@ li:hover {
 /*SKILLS*/
 .skillSection{ 
   height: 90vh;
-  margin-top: 5%;  
+  margin-top: 10%;  
   background:#D6AA8B;   
 }
 .skills img{
@@ -148,17 +147,18 @@ li:hover {
   color: rgba(0, 0, 0, 0.76);
   font-weight: 700;
   letter-spacing: 0.7rem;
+  margin-top: 80px;
 
   }
   /*movile skills*/
 .row .col.s4.list {
-  border:5px solid #e67e22;
+  border:5px solid rgb(240, 160, 173);
   width: 39.333333%;
   padding: 3%;
   margin: 5%;
   border-radius: 41%;
   margin-top: 10%;
-  box-shadow:5px 2px 7px rgb(109, 94, 11);
+  box-shadow:5px 2px 7px rgb(240, 160, 173);
   
  }
 .row .col.s4:hover{
@@ -170,9 +170,11 @@ span{
   font-size: 16px;
  }
  /* secccion de portafolio */
+ 
+
 .light{
-  margin-top: 10%;
-  color: #e67e22;
+  margin-top: 80px;
+  color: rgb(240, 160, 173);
   font-weight: 700;
   letter-spacing: 0.3rem;
 }
@@ -182,19 +184,22 @@ span{
 }
  .card{
   margin:5%;
-  margin-top: 15%;
-  -webkit-box-shadow: 4px 4px 18px 3px rgba(65, 2, 65, 0.4);
+   -webkit-box-shadow: 4px 4px 18px 3px rgba(65, 2, 65, 0.4);
   -moz-box-shadow: 4px 4px 18px 3px rgba(65, 2, 65, 0.4);
   box-shadow: 4px 4px 18px 3px rgba(65, 2, 65, 0.4);
   
-}
 
+}
+.contCard{
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
 .cardButton{
   width: 200px;
   height: 40px;
   border-radius: 5%;
   border:1px solid rgb(126, 19, 126);
-  background: #faa912;
+  background:rgb(240, 160, 173);
   cursor: pointer;
   position: absolute;  
   text-align: center;
@@ -206,14 +211,14 @@ span{
   font-weight: 400;
 }
 .cardButton{
-  background-color: #e67e22;
+  background-color: rgb(240, 160, 173);
 }
 .cardButton:hover{
   background-color: transparent;
   border: none;
 }
 .cardButton a:hover{
-  color: rgb(250, 143, 20);
+  color:rgb(240, 160, 173);
   border: none;
   font-size: 20px;
 }
@@ -227,7 +232,7 @@ span{
 
  /*SECCION DE CONTACTO*/
 .contactMe{
-  color: #e67e22;
+  color: rgb(240, 160, 173);
   font-weight: 700;
   letter-spacing: 0.7rem;
 }
@@ -235,7 +240,7 @@ span{
   width: 100px;
   height: 40px;
   border-radius: 10%;
-  background: #e67e22;
+  background: rgb(240, 160, 173);
   cursor: pointer;
   position: absolute;
   margin: 0 auto;
@@ -245,7 +250,7 @@ span{
   }
 .lg:hover{
   background-color: rgb(126, 19, 126);
-  color: rgb(250, 143, 20);
+  color: rgb(240, 160, 173);
 }
 
 /*FOOTER*/
@@ -254,4 +259,23 @@ span{
 }
 .text{
   color:wheat;
+  font-size: 24px;
+}
+.phrase{
+  margin-top: 30px;
+}
+ .fa {
+  font-size: 40px;
+  color: white;
+  margin-top: 8%;
+}
+
+ .fa:hover {  
+  color: #80cbc4;    
+  -moz-transform: scale(2.2);
+  -webkit-transform: scale(2.2);
+  -o-transform: scale(2.2);
+  -ms-transform: scale(2.2);
+  transform: scale(2.2);
+  margin-top:8%;
 }

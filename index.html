@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="https://fonts.googleapis.com/css?family=Cantarell:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Gabriela" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -27,38 +28,24 @@
           <i class="material-icons">menu</i>
         </a>
         <ul class="right hide-on-med-and-down">
-          <li>
+          <li class="menu">
             <a href="#myPersonalInformation">Sobre mi</a>
           </li>
-          <li>
+          <li class="menu">
             <a href="#portfolioInformation">Proyectos</a>
           </li>
-          <li>
+          <li class="menu">
             <a href="#skillInformation">Skills</a>
           </li>
-         
-         
         </ul>
-        <ul class="side-nav" id="mobile-demo">
-          <li>
-            <a href="sass.html">Sass</a>
-          </li>
-          <li>
-            <a href="badges.html">Components</a>
-          </li>
-          <li>
-            <a href="collapsible.html">Javascript</a>
-          </li>
-          <li>
-            <a href="mobile.html">Contáctame</a>
-          </li>
-        </ul>
+
       </div>
     </nav>
   </header>
   <main>
     <section class=" section efectoPresentation">
-      <p id="efecto" class="show-on-medium-and-up hide-on-med-and-down"></p>
+    
+      <p id="efecto" class=" show-on-medium-and-up hide-on-med-and-down"></p>
       <p id='efectoMovile' class=" hide-on-large-only show-on-small"></p>
 
     </section>
@@ -66,8 +53,7 @@
   <section id="myPersonalInformation" class="section">
     <div class="row container">
       <h4 class="aboutMe col s12 m12 center-align">SOBRE MI </h4>
-      <br>
-      <br>
+
       <div class="line col m4 s6 col m6 offset-m3 col s6 offset-s3"></div>
       <div class="col m12 s12">
         <img class="col m4 s12  circle" src="assets/images/me.jpg" alt="">
@@ -77,17 +63,15 @@
           Soy Licenciada en Ciencias Sociales y me apasiona el desarrollo web, aspiro a relacionar ambas formaciones participando en
           proyectos de investigación que me permitan desarrollar plataformas solidarias con el desarrollo social; disfruto
           del dibujo, la música y he encontrado en el código otra expresión de arte que me ha cautivado.
-        </p>
-        <p class=" paragraph col m8  aboutMeDescription ">
-          Me considero una luchadora, perservero cada día por cumplir con mi objetivos, pero puedo darme una pausa para disfrutar de
-          la vida, de la naturaleza y del movimiento en la ciudad, en mis ratos libres amo dibujar , tocar la guitarra y
-          jugar con mi pequeña hija , considero que la creación , la capacidad de imaginar deben ser desarrollados en todo
-          su potencial, estos ideales son los que me han acompañado a lo largo de mi desarrollo profesional , permitiéndome
+          <br>
+          <br> Me considero una luchadora, perservero cada día por cumplir con mi objetivos, pero puedo darme una pausa para
+          disfrutar de la vida, de la naturaleza y del movimiento en la ciudad, en mis ratos libres amo dibujar , tocar la
+          guitarra y jugar con mi pequeña hija , considero que la creación , la capacidad de imaginar deben ser desarrollados
+          en todo su potencial, estos ideales son los que me han acompañado a lo largo de mi desarrollo profesional , permitiéndome
           disfrutar de los procesos y de los resultados obtenidos.
-        </p>
-        <p class=" paragraphEnd col m8 aboutMeDescription ">
-          Me gusta investigar cosas nuevas y estoy siempre dispuesta a aprender y enseñar, la solidaridad, la empatía y la buena actitud
-          son los ingredientes que me acompañan cada día.
+          <br>
+          <br> Me gusta investigar cosas nuevas y estoy siempre dispuesta a aprender y enseñar, la solidaridad, la empatía y
+          la buena actitud son los ingredientes que me acompañan cada día.
         </p>
       </div>
       <div class="col m12 hide-on-med-and-up  .show-on-small">
@@ -117,13 +101,17 @@
         <img class="col s6 m3" src="assets/images/node.svg" alt="">
 
         <img class="col s6 m3" src="assets/images/js.svg" alt="">
+        <img class="col s6 m6" src="assets/images/jquery.png" alt="">
+        <img class="col s6 m6" src="assets/images/GitHub.png" alt="">
 
       </div>
     </section>
-    <div class="row container">
-      <br>
+    <section class="portfolio">
+    <div class="row container ">
+
       <h4 id="portfolioInformation" class=" center-align light"> PORTAFOLIO</h4>
-      <div class="row">
+      <div class="line col m4 s6 col m6 offset-m3 col s6 offset-s3"></div>
+      <div class="row contCard">
         <!--card01-->
         <div class="col s12 m4">
           <div class="card medium z-depth-2">
@@ -134,13 +122,15 @@
               <span class="card-title activator grey-text text-darken-4">CARDIFY
                 <i class="material-icons">more_vert</i>
               </span>
-              <p><a href="https://mirelatv.github.io/Cardify-Pluggin/public/">SITIO WEB</a></p>
+              <p>
+                <a href="https://mirelatv.github.io/Cardify-Pluggin/public/index.html">SITIO WEB</a>
+              </p>
             </div>
             <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4">FOOD MAP
+              <span class="card-title grey-text text-darken-4">CARDIFY
                 <i class="material-icons botton">close</i>
               </span>
-              <p class="informationWeb">Cardify es un pluggin que permite insertar cualquier etiqueta img que se encuentre en un div en un contenedor 
+              <p class="informationWeb">Cardify es un pluggin que permite insertar cualquier etiqueta img que se encuentre en un div en un contenedor
                 figure y a su vez un figcaption que se muestra al hacer hover sobre la imagen.
               </p>
             </div>
@@ -156,7 +146,9 @@
               <span class="card-title activator grey-text text-darken-4">CINELA APP
                 <i class="material-icons">more_vert</i>
               </span>
-              <p><a href="#">SITIO WEB</a></p>
+              <p>
+                <a href="#">SITIO WEB</a>
+              </p>
             </div>
             <div class="card-reveal">
               <span class="card-title grey-text text-darken-4">CINELA
@@ -179,15 +171,17 @@
               <span class="card-title activator grey-text text-darken-4">FOODMAP
                 <i class="material-icons">more_vert</i>
               </span>
-              <p><a href=" https://mirelatv.github.io/FoodMap-Presentation/">SITIO WEB</a></p>
+              <p>
+                <a href=" https://mirelatv.github.io/FoodMap-Presentation/">SITIO WEB</a>
+              </p>
 
             </div>
             <div class="card-reveal">
               <span class="card-title grey-text text-darken-4">FOODMAP
                 <i class="material-icons botton">close</i>
               </span>
-              <p class="informationWeb">Food map es una web donde encontraras opciones de diferentes  restaurantes, con su respectiva informacion
-                 y aplicacion de google map para poder llegar  con facilidad.
+              <p class="informationWeb">Food map es una web donde encontraras opciones de diferentes restaurantes, con su respectiva informacion y
+                aplicacion de google map para poder llegar con facilidad.
               </p>
             </div>
           </div>
@@ -200,24 +194,29 @@
       <div class="row">
         <div class="col l6 s12">
           <h5 class="text">Noelia Tello Vara</h5>
-          <p class=" text">“El éxito es caminar de fracaso en fracaso sin perder el entusiasmo", Winston Churchill.</p>
+          <p class="phrase">“El éxito es caminar de fracaso en fracaso sin perder el entusiasmo", Winston Churchill.</p>
         </div>
         <div class="col l4 offset-l2 s12">
-          <h5 class="text">Links</h5>
+          <h5 id="links" class="text">Links</h5>
           <ul>
             <li>
-              <a class="" href="#!">
-                <img src="assets/images/facebook(2).png" alt="">
+              <a href="https://www.facebook.com/sharer/sharer.php?u=&t=" title="Share on Facebook" target="_blank">
+                <i class="fa fa-facebook grey-text text-lighten-3"></i>
+            </li>
+            <li>
+              <a href="https://twitter.com/intent/tweet?source=&text=:%20" title="Tweet" target="_blank">
+                <i class="fa fa-twitter grey-text text-lighten-3"></i>
+              </a> &nbsp; &nbsp;
+            </li>
+            <li>
+              <a href="https://plus.google.com/share?url=" title="Share on Google+" target="_blank">
+                <i class="fa fa-google-plus grey-text text-lighten-3"></i>
+              </a> &nbsp; &nbsp;
+            </li>
+            <li>
+              <a href="http://www.linkedin.com/shareArticle?mini=true&url=&title=&summary=&source=" title="Share on LinkedIn" target="_blank">
+                <i class="fa fa-linkedin  grey-text text-lighten-3"></i>
               </a>
-            </li>
-            <li>
-              <a class="grey-text text-lighten-3" href="#!">Link 2</a>
-            </li>
-            <li>
-              <a class="grey-text text-lighten-3" href="#!">Link 3</a>
-            </li>
-            <li>
-              <a class="grey-text text-lighten-3" href="#!">Link 4</a>
             </li>
           </ul>
         </div>
