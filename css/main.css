@@ -27,9 +27,8 @@ body {
 }
 
 nav {
-  background-color:#705041;
+  background-color:turquoise;
   position: relative;
-  border: none;
   position: fixed;
   z-index: 1000;
 }
@@ -38,35 +37,53 @@ nav ul  a {
   letter-spacing: 1.8px;
   font-family: 'Cantarell', sans-serif;
   font-size: 20px;
-  color:whitesmoke;
+  color:blac;
   
 }
 nav ul{
   margin-right: 5%;
 }
 nav .brand-logo{
-  color: whitesmoke;
+  color: white;
   margin-left: 5%;
+  letter-spacing: 2vh;
   font-family: 'Gabriela', serif;
-  color: rgb(240, 160, 173)
 }
-.menu:hover {
-  background-color: rgb(240, 160, 173);
+nav .brand-logo:hover{
+  color: #edf376;
+  
+}
 
+nav ul a:hover {
+  background-color:#edf376;
+  background-size: cover;
+  font-size: 20px;
+  color:#000000ad;  
 }
+
 .imgLogo{
   width: 20%;
 }
 /* SECCION INICIAL*/
  
 .efectoPresentation{
-  margin-top: 0%;
-  height: 100vh;
-  background: linear-gradient(135deg, #505052bf 0%,  rgba(173, 168, 169, 0.75) 100%), url('../assets/images/room.jpg') center;
+
+  /* background: linear-gradient(135deg, #505052bf 0%,  rgba(173, 168, 169, 0.75) 100%), */
+  background-image: url('../assets/images/skillsSection.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
+  
 }
-   
+
+.containerEfecto{
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  background-color:rgba(0, 0, 0, 0.35);
+  height: 100vh;
+  
+}
 
   /*fin*/
 
@@ -74,82 +91,193 @@ nav .brand-logo{
 
 #efecto {
   font-family: 'Cantarell', sans-serif;
-  color:white;
+  color: white;
   font-size: 50px;
   font-weight: 700;
-  margin-top: 80px;
-  width: 500px;
-  margin-left: 5%;
-  margin-bottom: 80px;
-  
-}
+  margin-top: 285px;
     
+}
+
+
+/*titulos de  seccion*/ 
+ h4.titleSection{
+  margin-top: 0%;
+}
 
 /*SOBRE MI */
 
-.circle{
-  margin-top: 10%;
+ .developer{
+  margin-top: 5%;
   
-  box-shadow:6px 4px 6px rgb(240, 160, 173);
+} 
+
+/*Texto con efecto de linea hover*/
+* {margin:0;padding:0;border:0 none;position: relative; outline: none;
 }
-.aboutMe{
-  margin-top:80px;
-  color: rgba(0, 0, 0, 0.76);
-  font-weight: 700;
-  letter-spacing: 0.7rem;
-   
+
+.aboutme {
+  
+  width: 100%;
+  min-height: 200px;
+  line-height: 200px;
+  font-size: 3rem;
+  font-weight: normal;
+  text-align: center;
+  
+  margin: 3rem auto 0;
 }
+.uno {background: black;}
+
+
+.aboutme > a{
+  text-decoration: none;
+  color: #000000b6;
+  z-index: 1;
+}
+
+.aboutme > a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background: #edf376;
+  visibility: hidden;
+  border-radius: 5px;
+  transform: scaleX(0);
+  transition: .25s linear;
+}
+.aboutme > a:hover:before,
+.aboutme > a:focus:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+/*fin de  efecto hover */
+
+
 .aboutMeDescription{
-  margin-top:-67%;
+ 
   font-weight: 400;
   color: rgb(24, 23, 24);
   text-align: justify;
-  font-size: 40px;
+  font-size: 44px;
   font-size: 1rem;
   line-height: 1.5;
   margin-left: 10%;
-  margin-bottom: 0%;
-
 }
-
-
+.developer{
+  margin-top: 0%;
+}
 
 .paragraphMovile{
   color: rgba(0, 0, 0, 0.76);
   text-align: justify;
 }
-.section .line {
-  color: rgb(240, 160, 173);
-  display: inline-block;
-  height: 2px;
-  content: " ";
-  margin-top: 5px;
-  background-color: rgb(240, 160, 173);
-  
- }
- 
+
  
 /*FIN SECCION SOBRE MI*/
 
 
 /*SKILLS*/
 .skillSection{ 
+  background-image:url('../assets/images/portada.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 90vh;
   margin-top: 10%;  
-  background:#D6AA8B;   
+  
 }
 .skills img{
   width: 240px;
   height: 150px;
 }
 
-#skillInformation{
-  color: rgba(0, 0, 0, 0.76);
-  font-weight: 700;
-  letter-spacing: 0.7rem;
-  margin-top: 80px;
-
+/*efecto de  subrayado en  skills*/
+ 
+  * {margin:0;padding:0;border:0 none;position: relative; outline: none;
   }
+  
+  .skillsTitle {
+    
+    width: 100%;
+    min-height: 200px;
+    line-height: 200px;
+    font-size: 3rem;
+    font-weight: normal;
+    text-align: center;
+    
+    margin: 3rem auto 0;
+  }
+  /* .uno {background: black;}
+   */
+  
+  .skillsTitle > a{
+    text-decoration: none;
+    color: white;
+    z-index: 1;
+  }
+  
+  .skillsTitle> a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background: #edf376;
+
+    visibility: hidden;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: .25s linear;
+  }
+  .skillsTitle > a:hover:before,
+  .skillsTitle > a:focus:before {
+    visibility: visible;
+    transform: scaleX(1);
+  }
+  
+/*fin de  section hover skills*/
+
+    
+  
+  .amg-badge h3 {
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .imagesSkills{
+    width: 20vh;
+    margin-left: 30%;
+    
+  }
+
+  @media only screen and (max-width : 639px) {
+    .amg-badge {
+      width: 50%;
+      padding: 20px 10%;
+    }
+}
+
+
+.SectionLogoSkills{
+  margin-top: 35vh;
+}
+/*fin de skills*/
+.coverColor{
+
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  background-color:#0a0a0ab3;
+  height: 90vh;
+
+
+
+}
   /*movile skills*/
 .row .col.s4.list {
   border:5px solid rgb(240, 160, 173);
@@ -170,92 +298,62 @@ span{
   font-size: 16px;
  }
  /* secccion de portafolio */
+
+
  
+/*Texto con efecto de linea hover*/
+* {margin:0;padding:0;border:0 none;position: relative; outline: none;
+}
 
-.light{
-  margin-top: 80px;
-  color: rgb(240, 160, 173);
-  font-weight: 700;
-  letter-spacing: 0.3rem;
-}
-.cinela{
-  width: 307.27px;
-  height: 204.64px;
-}
- .card{
-  margin:5%;
-   -webkit-box-shadow: 4px 4px 18px 3px rgba(65, 2, 65, 0.4);
-  -moz-box-shadow: 4px 4px 18px 3px rgba(65, 2, 65, 0.4);
-  box-shadow: 4px 4px 18px 3px rgba(65, 2, 65, 0.4);
+.portfolioTitle {
   
-
-}
-.contCard{
-  margin-top: 100px;
-  margin-bottom: 80px;
-}
-.cardButton{
-  width: 200px;
-  height: 40px;
-  border-radius: 5%;
-  border:1px solid rgb(126, 19, 126);
-  background:rgb(240, 160, 173);
-  cursor: pointer;
-  position: absolute;  
+  width: 100%;
+  min-height: 200px;
+  line-height: 200px;
+  font-size: 3rem;
+  font-weight: normal;
   text-align: center;
-  margin-top: -20%;
-  margin-left: 4%;
+  
+  margin: 3rem auto 0;
 }
-.cardButton a{
-  color:rgb(126, 19, 126);
-  font-weight: 400;
+.uno {background: black;}
+
+
+.portfolioTitle > a{
+  text-decoration: none;
+  color: #000000b6;
+  z-index: 1;
 }
-.cardButton{
-  background-color: rgb(240, 160, 173);
+
+.portfolioTitle > a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background: #edf376;
+  visibility: hidden;
+  border-radius: 5px;
+  transform: scaleX(0);
+  transition: .25s linear;
 }
-.cardButton:hover{
-  background-color: transparent;
-  border: none;
+.portfolioTitle > a:hover:before,
+.portfolioTitle > a:focus:before {
+  visibility: visible;
+  transform: scaleX(1);
 }
-.cardButton a:hover{
-  color:rgb(240, 160, 173);
-  border: none;
-  font-size: 20px;
-}
-.card-image img{
-  width: 219.64px;
-  height: 200px
-}
-.informationWeb{
+div.card-content{
+  color: black;
   text-align: justify;
 }
 
- /*SECCION DE CONTACTO*/
-.contactMe{
-  color: rgb(240, 160, 173);
-  font-weight: 700;
-  letter-spacing: 0.7rem;
-}
-.lg{
-  width: 100px;
-  height: 40px;
-  border-radius: 10%;
-  background: rgb(240, 160, 173);
-  cursor: pointer;
-  position: absolute;
-  margin: 0 auto;
-  color: rgb(126, 19, 126);
-  text-align: center;
-    
-  }
-.lg:hover{
-  background-color: rgb(126, 19, 126);
-  color: rgb(240, 160, 173);
-}
+/*fin de  efecto hover */
+ 
 
 /*FOOTER*/
 .page-footer{
-  background-color:#9D4A20;
+  background-color:#0a0a0ab3;
 }
 .text{
   color:wheat;

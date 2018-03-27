@@ -10,6 +10,10 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script>
+    FontAwesomeConfig = { searchPseudoElements: true };
+  </script>
+
 
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
@@ -29,13 +33,13 @@
         </a>
         <ul class="right hide-on-med-and-down">
           <li class="menu">
-            <a href="#myPersonalInformation">Sobre mi</a>
+            <a href="#myPersonalInformation">SOBRE MI</a>
           </li>
           <li class="menu">
-            <a href="#portfolioInformation">Proyectos</a>
+            <a href="#portfolioInformation">SKILLS</a>
           </li>
           <li class="menu">
-            <a href="#skillInformation">Skills</a>
+            <a href="#skillInformation">PROYECTOS</a>
           </li>
         </ul>
 
@@ -44,22 +48,39 @@
   </header>
   <main>
     <section class=" section efectoPresentation">
-    
-      <p id="efecto" class=" show-on-medium-and-up hide-on-med-and-down"></p>
-      <p id='efectoMovile' class=" hide-on-large-only show-on-small"></p>
+      <div class=" center-align containerEfecto">
 
+        <p id="efecto" class=" show-on-medium-and-up hide-on-med-and-down center-align"></p>
+        <p id='efectoMovile' class=" hide-on-large-only show-on-small center-align"></p>
+      </div>
     </section>
   </main>
   <section id="myPersonalInformation" class="section">
     <div class="row container">
-      <h4 class="aboutMe col s12 m12 center-align">SOBRE MI </h4>
+      <h4 class="aboutme titleSection col s12 m12 center-align">
+        <a class="Me center'align" href="">SOBRE MÍ</a>
+      </h4>
+    </div>
 
-      <div class="line col m4 s6 col m6 offset-m3 col s6 offset-s3"></div>
-      <div class="col m12 s12">
-        <img class="col m4 s12  circle" src="assets/images/me.jpg" alt="">
+    <div class="row">
+      <!-- <img class="col m5 l5 offset-m1 offset-l1 s12 developer" src="assets/images/developer.jpg" alt=""> -->
+      <div class="carousel carousel-slider col m5 l5 offset-m1 offset-l1 s12 developer">
+        <a class="carousel-item hoverable" href="#one!">
+          <img src="assets/images/developer.jpg">
+        </a>
+        <a class="carousel-item" href="#two!">
+          <img src="assets/images/me.jpg">
+        </a>
+        <a class="carousel-item" href="#three!">
+          <img src="https://lorempixel.com/800/400/food/3">
+        </a>
+        <a class="carousel-item" href="#four!">
+          <img src="https://lorempixel.com/800/400/food/4">
+        </a>
       </div>
-      <div class=" hide-on-med-and-down col m8  col m8 offset-m6 ">
-        <p class="col m8   aboutMeDescription ">
+
+      <div class=" hide-on-med-and-down col m5 l5 s12 ">
+        <p class=" aboutMeDescription ">
           Soy Licenciada en Ciencias Sociales y me apasiona el desarrollo web, aspiro a relacionar ambas formaciones participando en
           proyectos de investigación que me permitan desarrollar plataformas solidarias con el desarrollo social; disfruto
           del dibujo, la música y he encontrado en el código otra expresión de arte que me ha cautivado.
@@ -71,171 +92,161 @@
           disfrutar de los procesos y de los resultados obtenidos.
           <br>
           <br> Me gusta investigar cosas nuevas y estoy siempre dispuesta a aprender y enseñar, la solidaridad, la empatía y
-          la buena actitud son los ingredientes que me acompañan cada día.
+          la buena actitud son los ingredientes que me acompañan cada día, y en Laboratoria encontre cada una de estas caracteristicas,
+          no ha sido facil hacer un giro tan grande a mi formacion, pero la perseverancia me permitira construir desarrollo
+          con tecnologia.
+
+
         </p>
       </div>
-      <div class="col m12 hide-on-med-and-up  .show-on-small">
-        <p class="  paragraphMovile col s12 hide-on-med-and-up">
-          Soy Licenciada en Ciencias Sociales y me apasiona el desarrollo web, aspiro a relacionar ambas formaciones participando en
-          proyectos de investigación que me permitan desarrollar plataformas solidarias con el desarrollo social; disfruto
-          del dibujo, la música y he encontrado en el código otra expresión de arte que me ha cautivado.
-      </div>
+    </div>
+    <div class="col m12 hide-on-med-and-up  .show-on-small">
+      <p class="  paragraphMovile col s12 hide-on-med-and-up">
+        Soy Licenciada en Ciencias Sociales y me apasiona el desarrollo web, aspiro a relacionar ambas formaciones participando en
+        proyectos de investigación que me permitan desarrollar plataformas solidarias con el desarrollo social; disfruto
+        del dibujo, la música y he encontrado en el código otra expresión de arte que me ha cautivado.
+    </div>
     </div>
 
     <section class="section skillSection">
-      <div class="row">
-        <h4 id="skillInformation" class=" col s12 m12 center-align">SKILLS </h4>
-        <div class="line white col m4 s6 col m6 offset-m3 col s6 offset-s3"></div>
+      <div class="row coverColor">
+        <h4 class=" titleSection col s12 m12 l12 center-align skillsTitle">
+          <a href="">SKILLS</a>
+        </h4>
       </div>
 
-      <br>
-      <br>
-      <div class="row skills">
-
-
-        <img class="col s6 m3" src="assets/images/css3.svg" alt="">
-
-
-        <img class="col s6 m3" src="assets/images/html.svg" alt="">
-
-        <img class="col s6 m3" src="assets/images/node.svg" alt="">
-
-        <img class="col s6 m3" src="assets/images/js.svg" alt="">
-        <img class="col s6 m6" src="assets/images/jquery.png" alt="">
-        <img class="col s6 m6" src="assets/images/GitHub.png" alt="">
-
+      <div class=" SectionLogoSkills row">
+        <div class="col s3 m3 amg-badge">
+          <img class='imagesSkills valign-wrapper responsive-img ' src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/173442/HTML5_Badge.svg"
+            alt="HTML5">
+          <h6 class="center-align">HTML</h6>
+        </div>
+        <div class="col s3 m3 amg-badge">
+          <img class='imagesSkills valign-wrapper responsive-img ' src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/173442/CSS3_Badge.svg"
+            alt="CSS3">
+          <h6 class="center-align">CCS3</h6>
+        </div>
+        <div class="col s3 m3 amg-badge">
+          <img class='imagesSkills valign-wrapper responsive-img ' src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/173442/JS_Badge.svg"
+            alt="JavaScript">
+          <h6 class="center-align">JAVA SCRIPT</h6>
+        </div>
+        <div class="col s3 m3 amg-badge">
+          <img class='imagesSkills  valign-wrapper  responsive-img ' src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/173442/JQ_Badge.svg"
+            alt="JQuery">
+          <h6 class="center-align">JQUERY</h6>
+        </div>
       </div>
     </section>
     <section class="portfolio">
-    <div class="row container ">
-
-      <h4 id="portfolioInformation" class=" center-align light"> PORTAFOLIO</h4>
-      <div class="line col m4 s6 col m6 offset-m3 col s6 offset-s3"></div>
-      <div class="row contCard">
-        <!--card01-->
-        <div class="col s12 m4">
-          <div class="card medium z-depth-2">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="assets/images/cardify.png">
+      <div class="row container">
+        <h4 class="portfolioTitle titleSection col s12 m12 center-align">
+          <a class="Me center'align" href="">PROYECTOS</a>
+        </h4>
+      </div>
+      <!-- car-1 -->
+      <div class="row containerPortafolio">
+        <div class="col s12 m4 offset-m1 l4 offset-l2 valign-wrapper align-center">
+          <div class="card medium hoverable ">
+            <div class="card-image">
+              <img src="assets/images/foodmap.png">
+              <span class="card-title">Card Title</span>
             </div>
             <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">CARDIFY
-                <i class="material-icons">more_vert</i>
-              </span>
-              <p>
-                <a href="https://mirelatv.github.io/Cardify-Pluggin/public/index.html">SITIO WEB</a>
-              </p>
+              <p>FoodMap te permitir+a  encontrar restaurantes en  Surco y además  te brinda  informacón de  como llegar a través  de  google maps.</p>
             </div>
-            <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4">CARDIFY
-                <i class="material-icons botton">close</i>
-              </span>
-              <p class="informationWeb">Cardify es un pluggin que permite insertar cualquier etiqueta img que se encuentre en un div en un contenedor
-                figure y a su vez un figcaption que se muestra al hacer hover sobre la imagen.
-              </p>
+            <div class="card-action">
+              <a href="#">This is a link</a>
             </div>
           </div>
         </div>
-        <!--card2-->
-        <div class="col s12 m4">
-          <div class="card medium z-depth-2">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator secondActivator" src="assets/images/cinela.png">
+
+        <!-- card-2 -->
+
+        <div class="col s12 m4 offset-m1 l4  valign-wrapper">
+          <div class="card medium hoverable">
+            <div class="card-image">
+              <img src="assets/images/cardify.png">
+              <span class="card-title">Cardify</span>
             </div>
             <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">CINELA APP
-                <i class="material-icons">more_vert</i>
-              </span>
-              <p>
-                <a href="#">SITIO WEB</a>
-              </p>
+              <p class="color">Cardify es unproyecto dirigido a  developer, permite que  los  desarrolladores puedan  optimizar sus galerias de fotos, conteniendo todas 
+                sus imagenes  en un figure  y  brindando informacion a  traves  de  un figcaption.</p>
             </div>
-            <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4">CINELA
-                <i class="material-icons botton">close</i>
-              </span>
-              <p class="informationWeb">Food map es un proyecto que permite buscar restaurantes en el distrito de Surco, por categorias; a través de
-                un imput , el usuario ingresa su busqueda de interés ubicando de esta forma la lista de restaurantes disponibles,
-                accediendo a la informacion requerida.
-              </p>
+            <div class="card-action">
+              <a href="#">This is a link</a>
             </div>
           </div>
+
         </div>
-        <!--card3-->
-        <div class="col s12 m4">
-          <div class="card medium z-depth-2">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator secondActivator" src="assets/images/header1.jpg">
+      </div>
+      <!-- card-3 -->
+      <div class="row containerPortafolio ">
+
+        <div class="col s12 m4 offset-m4 l4 offset-l4 valign-wrapper align-center">
+          <div class="card medium hoverable">
+            <div class="card-image">
+              <img src="assets/images/cinela.png">
+              <span class="card-title">CINELA</span>
             </div>
             <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">FOODMAP
-                <i class="material-icons">more_vert</i>
-              </span>
-              <p>
-                <a href=" https://mirelatv.github.io/FoodMap-Presentation/">SITIO WEB</a>
-              </p>
-
+              <p>Es una web de  películas. A través  de  un buscador el usuario hallará informacion sobre su película favorita.</p>
             </div>
-            <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4">FOODMAP
-                <i class="material-icons botton">close</i>
-              </span>
-              <p class="informationWeb">Food map es una web donde encontraras opciones de diferentes restaurantes, con su respectiva informacion y
-                aplicacion de google map para poder llegar con facilidad.
-              </p>
+            <div class="card-action">
+              <a href="#">This is a link</a>
             </div>
+          </div>
+        </div>       
+      </div>
+    </section>
+    <footer class="page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="text">Noelia Tello Vara</h5>
+            <p class="phrase">“El éxito es caminar de fracaso en fracaso sin perder el entusiasmo", Winston Churchill.</p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 id="links" class="text">Links</h5>
+            <ul>
+              <li>
+                <a href="https://www.facebook.com/sharer/sharer.php?u=&t=" title="Share on Facebook" target="_blank">
+                  <i class="fa fa-facebook grey-text text-lighten-3"></i>
+              </li>
+              <li>
+                <a href="https://twitter.com/intent/tweet?source=&text=:%20" title="Tweet" target="_blank">
+                  <i class="fa fa-twitter grey-text text-lighten-3"></i>
+                </a> &nbsp; &nbsp;
+              </li>
+              <li>
+                <a href="https://plus.google.com/share?url=" title="Share on Google+" target="_blank">
+                  <i class="fa fa-google-plus grey-text text-lighten-3"></i>
+                </a> &nbsp; &nbsp;
+              </li>
+              <li>
+                <a href="http://www.linkedin.com/shareArticle?mini=true&url=&title=&summary=&source=" title="Share on LinkedIn" target="_blank">
+                  <i class="fa fa-linkedin  grey-text text-lighten-3"></i>
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
-  </section>
-
-  <footer class="page-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="text">Noelia Tello Vara</h5>
-          <p class="phrase">“El éxito es caminar de fracaso en fracaso sin perder el entusiasmo", Winston Churchill.</p>
-        </div>
-        <div class="col l4 offset-l2 s12">
-          <h5 id="links" class="text">Links</h5>
-          <ul>
-            <li>
-              <a href="https://www.facebook.com/sharer/sharer.php?u=&t=" title="Share on Facebook" target="_blank">
-                <i class="fa fa-facebook grey-text text-lighten-3"></i>
-            </li>
-            <li>
-              <a href="https://twitter.com/intent/tweet?source=&text=:%20" title="Tweet" target="_blank">
-                <i class="fa fa-twitter grey-text text-lighten-3"></i>
-              </a> &nbsp; &nbsp;
-            </li>
-            <li>
-              <a href="https://plus.google.com/share?url=" title="Share on Google+" target="_blank">
-                <i class="fa fa-google-plus grey-text text-lighten-3"></i>
-              </a> &nbsp; &nbsp;
-            </li>
-            <li>
-              <a href="http://www.linkedin.com/shareArticle?mini=true&url=&title=&summary=&source=" title="Share on LinkedIn" target="_blank">
-                <i class="fa fa-linkedin  grey-text text-lighten-3"></i>
-              </a>
-            </li>
-          </ul>
+      <div class="footer-copyright">
+        <div class="container text">
+          © 2018 Copyright
         </div>
       </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container text">
-        © 2018 Copyright
-      </div>
-    </div>
-  </footer>
+    </footer>
 
 
 
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <!-- Compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-  <script src="js/app.js"></script>
-  <script src="js/paralax.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="js/skills.js"></script>
 
 
 </body>
