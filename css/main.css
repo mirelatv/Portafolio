@@ -185,13 +185,21 @@ nav ul a:hover {
   background-image:url('../assets/images/portada.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
-  height: 90vh;
+  height: 100vh;
   margin-top: 10%;  
   
 }
-.skills img{
-  width: 240px;
-  height: 150px;
+
+.coverColor{
+
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  background-color:#0a0a0ab3;
+  height: 100vh;
+
+
+
 }
 
 /*efecto de  subrayado en  skills*/
@@ -250,8 +258,9 @@ nav ul a:hover {
     color: #FFFFFF;
   }
   .imagesSkills{
-    width: 20vh;
-    margin-left: 30%;
+    width: 12vh;
+    margin-left: 40%;
+    margin-top:0%;
     
   }
 
@@ -266,18 +275,18 @@ nav ul a:hover {
 .SectionLogoSkills{
   margin-top: 35vh;
 }
-/*fin de skills*/
-.coverColor{
 
-  position: absolute;
-  top: 0px;
-  width: 100%;
-  background-color:#0a0a0ab3;
-  height: 90vh;
-
-
+.SectionLogoSkillsSecond{
+  margin-top: 10vh;
+}
+.SectionLogoSkillsSecond  img{
+ width: 20vh;
+ margin-left: 35%;
 
 }
+
+/*fin de skills*/
+
   /*movile skills*/
 .row .col.s4.list {
   border:5px solid rgb(240, 160, 173);
@@ -350,30 +359,45 @@ div.card-content{
 
 /*fin de  efecto hover */
  
+.waves-effect{
+  margin-left: 1vh;
+}
 
 /*FOOTER*/
 .page-footer{
   background-color:#0a0a0ab3;
 }
 .text{
-  color:wheat;
+  color:turquoise;
   font-size: 24px;
+}
+.text:hover{
+  color:  #edf376;
 }
 .phrase{
   margin-top: 30px;
 }
+
  .fa {
+  
   font-size: 40px;
   color: white;
   margin-top: 8%;
 }
 
+.github,.linkedin{
+  width: 40px;
+}
+
  .fa:hover {  
   color: #80cbc4;    
-  -moz-transform: scale(2.2);
-  -webkit-transform: scale(2.2);
-  -o-transform: scale(2.2);
-  -ms-transform: scale(2.2);
-  transform: scale(2.2);
+  -moz-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
   margin-top:8%;
+  
 }
+
+ 
