@@ -1,28 +1,22 @@
+@media(max-width: 600px){
 
-@media(max-width:576px){
-.efectoPresentation{
-  background-image: url('../assets/images/movile.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 30vh;
+  .paragraphMovile{
+    padding: 3vh;
+  }
+  .aboutme{
+    height: 25vh;
+  }
+  .portfolioTitle{
+    height: 25vh;
+  }
+  .card-action .btn{
+    width: 20vh;
+    
+  }
+  
 }
-#efectoMovile{
-  font-family: 'Cantarell', sans-serif;
-  color: white;
-  font-size: 20px;
-  font-weight: 700;
-  margin-top: 40%;
-  margin-left: 19%;
-  width: 235px;
-  position: absolute;
-}
-
- 
-
-}
-
 body {
-  font-family: 'Cantarell', sans-serif;
+  font-family: 'Rubik', sans-serif;
   color: white;
 }
 
@@ -98,6 +92,13 @@ nav ul a:hover {
     
 }
 
+#efectoMovile{
+  font-family: 'Cantarell', sans-serif;
+  color: white;
+  font-size: 50px;
+  font-weight: 400;
+  margin-top: 40vh;
+}
 
 /*titulos de  seccion*/ 
  h4.titleSection{
@@ -190,6 +191,7 @@ nav ul a:hover {
   
 }
 
+
 .coverColor{
 
   position: absolute;
@@ -204,8 +206,8 @@ nav ul a:hover {
 
 /*efecto de  subrayado en  skills*/
  
-  * {margin:0;padding:0;border:0 none;position: relative; outline: none;
-  }
+  /* * {margin:0;padding:0;border:0 none;position: relative; outline: none;
+  } */
   
   .skillsTitle {
     
@@ -224,7 +226,7 @@ nav ul a:hover {
   .skillsTitle > a{
     text-decoration: none;
     color: white;
-    z-index: 1;
+    /* z-index: 1; */
   }
   
   .skillsTitle> a:before {
@@ -257,62 +259,44 @@ nav ul a:hover {
     text-align: center;
     color: #FFFFFF;
   }
-  .imagesSkills{
-    width: 12vh;
-    margin-left: 40%;
-    margin-top:0%;
-    
-  }
+  
 
-  @media only screen and (max-width : 639px) {
-    .amg-badge {
-      width: 50%;
-      padding: 20px 10%;
-    }
-}
+  
 
 
 .SectionLogoSkills{
-  margin-top: 35vh;
+  margin-top: 30vh;
+  display: flex;
 }
 
 .SectionLogoSkillsSecond{
   margin-top: 10vh;
+  display: flex;
+}
+
+.imagesSkills{
+  width: 12vh;
+   margin-top:0%;
+  
 }
 .SectionLogoSkillsSecond  img{
- width: 20vh;
- margin-left: 35%;
+  width: 20vh;
 
-}
-
-/*fin de skills*/
-
-  /*movile skills*/
-.row .col.s4.list {
-  border:5px solid rgb(240, 160, 173);
-  width: 39.333333%;
-  padding: 3%;
-  margin: 5%;
-  border-radius: 41%;
-  margin-top: 10%;
-  box-shadow:5px 2px 7px rgb(240, 160, 173);
-  
- }
-.row .col.s4:hover{
-  background-color: gray;
  
  }
-span{
-  margin-left: 20%;
-  font-size: 16px;
- }
+
+.textSkills{
+  display:block;
+  text-align: center
+}
+/*fin de skills*/
+
+
  /* secccion de portafolio */
 
 
  
 /*Texto con efecto de linea hover*/
-* {margin:0;padding:0;border:0 none;position: relative; outline: none;
-}
 
 .portfolioTitle {
   
@@ -362,6 +346,21 @@ div.card-content{
 .waves-effect{
   margin-left: 1vh;
 }
+/* .btn:hover {
+  
+  background: #edf376;
+  color: rgba(0, 0, 0, 0.76);
+
+ } */
+ .btn:hover {
+  
+  background: #edf376;
+  color: rgba(0, 0, 0, 0.76);
+  transition:  2s ;
+ }
+ 
+ 
+
 
 /*FOOTER*/
 .page-footer{
@@ -376,6 +375,7 @@ div.card-content{
 }
 .phrase{
   margin-top: 30px;
+  text-align: justify;
 }
 
  .fa {
@@ -399,5 +399,6 @@ div.card-content{
   margin-top:8%;
   
 }
+/* } */
 
  
