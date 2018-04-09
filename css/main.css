@@ -63,7 +63,7 @@ nav ul a:hover {
 .efectoPresentation{
 
   /* background: linear-gradient(135deg, #505052bf 0%,  rgba(173, 168, 169, 0.75) 100%), */
-  background-image: url('../assets/images/skillsSection.jpeg');
+  background-image: url('../assets/images/skillsSection-min (2).jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -171,7 +171,11 @@ nav ul a:hover {
 .developer{
   margin-top: 0%;
 }
-
+.developer:hover{
+  
+ 
+ 
+  }
 .paragraphMovile{
   color: rgba(0, 0, 0, 0.76);
   text-align: justify;

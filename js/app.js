@@ -1,6 +1,6 @@
 //agregando texto con efecto maquina
 
-var mensaje = " Noelia Tello Front-end Developer", pausa = 200; 
+var mensaje = " Noelia Tello Front-End Developer", pausa = 200; 
 function inicio(){ 
  var i = 0;
  var m = mensaje.split(''); 
